@@ -1,0 +1,25 @@
+/* 
+----------
+RESET
+----------
+*/
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  /* font-family shorthand; */
+  font: 400 1.6rem/1.7 'Lato', 'sans-serif';
+
+  padding: 3rem;
+  color: $color-grey-dark;
+}
