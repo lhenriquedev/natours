@@ -6,6 +6,24 @@
   & > .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    column-gap: 6rem;
+    column-gap: $gap-horizontal;
+  }
+}
+
+.section-features {
+  padding: 20rem 0;
+
+  background-image: linear-gradient(
+      to right,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url('../img/nat-4.jpg');
+  background-size: cover;
+
+  & > .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    column-gap: $gap-horizontal;
   }
 }
